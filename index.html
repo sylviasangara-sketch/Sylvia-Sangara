@@ -2,75 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SS GESARE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylvia Sangara | Data Analyst</title>
+
     <style>
         * {
-            margin: 5;
-            padding: 7;
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
         }
 
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            background-color: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-
-        .container img {
-            max-width: 200%;
-           line-height: 79;
-            border-radius: 10px;
-            margin: 0;
-        }
-
-        .container h1 {
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .container p {
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Sylvia Sangara</h1>
-        <img src="images/img src=photo.jpg" alt="Sylvia Sangara">
-        <h1>Data analytics & Customer experience professional</h1>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sylvia Sangara | Data Analyst</title>
-    <style>
-        body {
-            margin: 0;
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f4f6f8;
             color: #333;
             line-height: 1.6;
         }
 
+        /* ===== HERO / FIRST PART ===== */
         header {
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            background: 
+                linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("images/photo.jpg");
+            background-size: cover;
+            background-position: center;
             color: white;
-            padding: 60px 20px;
+            padding: 100px 20px;
             text-align: center;
         }
 
+        header img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+
         header h1 {
-            margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.7rem;
         }
 
         header p {
@@ -78,6 +49,7 @@
             margin-top: 10px;
         }
 
+        /* ===== SECTIONS ===== */
         section {
             max-width: 900px;
             margin: 40px auto;
@@ -86,13 +58,6 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         }
-        .container img {
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 
         h2 {
             color: #1e3c72;
@@ -107,22 +72,39 @@
             margin-bottom: 10px;
         }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #666;
-            font-size: 0.9rem;
-        }
-
         .highlight {
             font-weight: bold;
             color: #2a5298;
         }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
+
 <body>
 
 <header>
+    <!-- Profile Image -->
+    <img src="images/photo.jpg" alt="Sylvia Sangara">
+
     <h1>Sylvia Sangara</h1>
     <p>Data Analytics & Customer Experience Professional</p>
 </header>
@@ -133,7 +115,7 @@
         I am a data analytics professional with a background in 
         <span class="highlight">Applied Statistics with Computing</span> and hands-on 
         experience in customer support and telecommunications. I am passionate about 
-        using data to uncover insights, improve decision-making, and enhance service delivery, 
+        using data to uncover insights, improve decision-making, and enhance service delivery,
         particularly within healthcare and technology-driven environments.
     </p>
 </section>
@@ -152,6 +134,7 @@
 
 <section>
     <h2>Professional Experience</h2>
+
     <p><strong>Customer Experience / Technical Support – Safaricom</strong></p>
     <ul>
         <li>Resolved customer service and technical issues while maintaining high satisfaction levels.</li>
@@ -177,10 +160,13 @@
 </section>
 
 <footer>
-    © 2025 Sylvia Sangara | Data Analytics Portfolio
+    <p>© 2025 Sylvia Sangara | Data Analytics Portfolio</p>
+    <p>
+        <a href="mailto:yourname@email.com">Email</a> |
+        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
+    </p>
 </footer>
 
-</body>
-    </div>
 </body>
 </html>
